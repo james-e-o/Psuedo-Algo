@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-    padding: 20px;
+    padding: 10px;
 }
 
 main {
@@ -29,8 +29,13 @@ main {
 }
 
 div.data {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid black;
+    margin-bottom: 5px;
+    font-size: large;
+    width: 200px;
+    height: 10px;
+    text-align: center;
 }
 div.container {
     border: 1px solid black;
