@@ -1,9 +1,34 @@
-const data = document.querySelector('.data')
-function prng (a,x,c,m){
-    let calc = ( a * x + c) % m
-    x = calc
-    data.textContent=calc
-  }
-setInterval(() => {
-  prng(5, 6,8,5) 
-}, 1000);
+// const data = document.querySelector('.data')
+
+// let x = 6
+// function prng (a,c,m){
+//    
+//     return calc
+//     data.textContent=calc
+//   }
+//
+
+// 
+
+// setInterval(() => {
+//   let x =4
+//   console.log(x)
+  
+//   x += 5
+//   console.log(x)
+  
+//    }, 1000);
+
+
+   setInterval(() => {
+     let x =10, a=30, c=27, m=6
+
+     function prng (a,x,c,m){
+          
+      let calc = ( a * x + c) % m
+        // data.textContent=calc
+        }
+     
+
+     }, 500);
+  
